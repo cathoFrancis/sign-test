@@ -1,0 +1,9 @@
+---
+- name: Simple Collections Hello Playbook
+  hosts: all
+  tasks:
+    - name: SIGN Hello
+      debug:
+        msg: "Sign Hello"
+
+
